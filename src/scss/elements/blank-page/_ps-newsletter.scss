@@ -1,0 +1,42 @@
+.newsletter-container{
+    padding: 65px 0;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.blank--row{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control--nest{
+    border-radius: 4px 0 0 4px;
+    border-color: #ccc;
+    border-right: none;
+    outline: none;
+    font-size: 14px;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 transparent;
+    transition: all .4s ease;
+    box-shadow: 0 0 0 #000;
+    width: 100%;
+}
+
+.form-group--nest{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.form__left{
+   & h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 24px;
+    }
+    & p{
+        font-size: 14px;
+        line-height: 1.6em;
+        color: #666;
+    }
+}

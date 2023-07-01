@@ -1,0 +1,19 @@
+.category-products-components{
+    max-width: 880px;
+    width: 100%;
+    .category-products-components--title{
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.category-products{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    padding: 20px 20px 0;
+}

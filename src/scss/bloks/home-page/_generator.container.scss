@@ -1,0 +1,21 @@
+.generator-container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.generator-component{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.generator-component-cards{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+}

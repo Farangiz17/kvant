@@ -1,0 +1,27 @@
+.Seaction-header-container{
+    background-color: #F4F4F4;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.section-header-component{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    padding: 12px 20px
+}
+
+.section-header-component--title{
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.section-header-component--links{
+    font-size: 15px;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}

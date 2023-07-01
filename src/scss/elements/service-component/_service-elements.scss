@@ -1,0 +1,40 @@
+.service-component{
+  & .service-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    & .col-12{
+        padding: 0 !important;
+    }
+  }
+}
+
+.service-header {
+  padding-top: 110px;
+  padding-bottom: 90px;
+  text-align: center;
+  & h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.2em;
+  }
+}
+.service-content {
+padding: 85px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  & h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+    color: #000;
+  }
+  & p {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #666;
+  }
+}

@@ -1,0 +1,197 @@
+.header-right {
+  max-width: 370px;
+  display: flex;
+  align-items: center;
+}
+
+.header_actions {
+  padding-left: 67px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.favorite {
+  position: relative;
+  margin: 0 20px;
+  .favorite_icon {
+    font-size: 35px;
+    color: #515151;
+  }
+  .actions-heart-num {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background: #0f4c82;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 11px;
+  }
+}
+
+.korzinka {
+  position: relative;
+  margin: 0 20px;
+  .korzinka_icon {
+    font-size: 30px;
+    color: #515151;
+  }
+  .actions-korzinka-num {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    background-color: #0f4c82;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 11px;
+  }
+}
+
+.korzinka:hover .ps-korzina-modal {
+  opacity: 1 !important;
+  top: 57px;
+}
+
+.ps-korzina-modal {
+  opacity: 0;
+  position: absolute !important;
+  z-index: 99999;
+  min-width: 370px;
+  width: 370px !important;
+  transition: all ease .5s;
+  top: 67px;
+}
+
+.ps-korzina-modal {
+  position: absolute !important;
+  right: -46px;
+  width: 370px !important;
+}
+
+.korzina-product {
+  position: relative;
+  padding: 20px;
+  max-height: 300px;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-bottom: none;
+}
+
+.korzina-product-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-between;
+  & a{
+    text-decoration: none;
+  }
+}
+
+.korzina-product-item-image {
+  & img {
+    width: 70px;
+  }
+}
+.korzina-product-item-title-price {
+  padding-left: 20px;
+  & p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  & p:last-child {
+    color: #000;
+  }
+}
+
+.korzina-product-item-clear {
+  color: #515151;
+  vertical-align: super;
+  font-size: 18px;
+}
+
+.korzina-products-total {
+  padding: 10px 20px 20px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-top: 0;
+}
+
+.korzina-products-total__name {
+  & h3 {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    & strong {
+      float: right;
+      color: red;
+      font-weight: 800 !important;
+    }
+  }
+}
+
+.korzina-products-total__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  .total-btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #0f4c82;
+    transition: all 0.4s ease;
+    padding: 12px 25px;
+    flex-basis: 100%;
+    max-width: calc(50% - 10px);
+    width: 100%;
+    text-align: center;
+    &:last-child {
+      padding: 12px 25px;
+    }
+    &:hover {
+      background-color: #000;
+    }
+  }
+}
+
+.register {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 7px;
+  margin: 0 20px;
+  .register_icon {
+    font-size: 34px;
+    color: #515151;
+  }
+
+  .register_div {
+    font-family: sans-serif;
+    width: 100px;
+    padding-left: 12px;
+    padding: 0;
+    .register_div--p {
+      padding: 0;
+      margin: 0;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .register_div--p a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

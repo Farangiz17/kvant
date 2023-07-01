@@ -1,0 +1,14 @@
+.korzina-container{
+    max-width: 1230px;
+    width: 100%;
+    margin: 100px auto 0 auto;
+}
+
+.section-header{
+    text-align: center;
+    padding-bottom: 100px;
+    & h1{
+        font-size: 48px;
+        font-weight: 600;
+    }
+}

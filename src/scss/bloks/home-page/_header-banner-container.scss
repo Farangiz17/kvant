@@ -1,0 +1,13 @@
+.banner_container{
+  max-width: 1300px;
+  min-height:  350px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.banner_container-parent{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

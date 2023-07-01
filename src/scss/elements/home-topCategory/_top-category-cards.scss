@@ -1,0 +1,25 @@
+.top-category-component-title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.topCategory-card-container{
+    border: 1px solid #DDDDDD;
+}
+
+.topCategory-card-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 15px ;
+}
+.topCategory-card-img{
+    width: 160px;
+    height: 100%;
+}
+.topCategory-card-p{
+    font-size: 16px;
+    font-weight: 500;
+}

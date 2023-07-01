@@ -1,0 +1,44 @@
+.category-filter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+}
+
+.category-filter-title{
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+}
+
+.categ-filter-card{
+    padding: 25px 20px;
+    background-color: #f5f5f5;
+    max-width: 290px;
+    height: auto;
+}
+
+.category-filter-card-ul{
+    padding: 0;
+    .category-filter-card-ul-li{
+        list-style: none;
+        padding: 6px 20px 6px 0;
+    }
+}
+.category-filter-card-ul a{
+    text-decoration: none;
+  color: #000000A6;
+  font-family: 'Work Sans';
+  font-size: 14px;
+}
+
+
+.category-filter-price{
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+}

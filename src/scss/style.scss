@@ -1,0 +1,68 @@
+@import './bloks/home-page/_header.scss';
+@import './elements/header-elements/_header-searchbar.scss';
+@import './elements/header-elements/_logo.scss';
+@import './elements/header-elements/_header-actions.scss';
+
+@import './bloks/home-page/_navigation.scss';
+@import './elements//navigation-elements/_navigation-categoriy.scss';
+
+@import './bloks/home-page/_header-banner-container.scss ';
+@import './elements/home-banner/_header-banners-component.scss';
+@import './bloks/home-page/_home-features.scss';
+@import './elements//home-features/_home-features.scss';
+@import './bloks/home-page/_home.ads-container.scss';
+@import './elements/home-ads/_home-ads.scss';
+@import './bloks/home-page/_top-category.scss';
+@import './elements/home-topCategory/_top-category-cards.scss';
+@import './bloks/home-page/_generator.container.scss';
+
+
+@import './common/section-top/_section-top.scss';
+
+@import './bloks/home-page/_instruments-container.scss';
+@import './bloks/home-page/_brend.scss';
+@import './elements//home-brends/_home-brend.scss';
+@import './bloks/home-page/_footer.scss';
+
+
+@import './bloks/category-page/_category-container.scss';
+@import './elements/category-elemets/_category-products.scss';
+@import './elements/category-elemets/_category-filter.scss';
+
+@import './bloks/product-page/_product-container.scss';
+
+@import './common/product-card/_product-card.scss';
+@import './elements/product-page-elemets/_ps-left-image.scss';
+@import './elements/product-page-elemets/_ps-left-info.scss';
+@import './elements/product-page-elemets/_ps-left-related.scss';
+@import './elements/product-page-elemets/_ps-right-widget.scss';
+@import './elements/product-page-elemets/_ps-left.scss';
+
+@import './bloks/about-us-page/_about-us.container.scss';
+@import './elements/about-header/_about-header.scss';
+@import './elements/about-awards/_about-awards.scss';
+@import './elements/about-details/_about-details.scss';
+
+@import './common/breadCrumb/_bread-crumb.scss';
+
+@import './bloks/service-page/_service.container.scss';
+@import './elements/service-component/_service-elements.scss';
+
+@import './bloks/contact-us-page/_contact.container.scss';
+@import './elements/contact-map/_contact-us-map.scss';
+@import './elements/contact-info/_contact-info.scss';
+@import './elements/contact-send-message/_send-message.scss';
+
+@import './elements/blank-page/_ps-custom.scss';
+@import './elements/blank-page/_ps-newsletter.scss';
+
+@import './bloks/login/_login.scss';
+@import './bloks/register/_register.scss';
+@import './elements/login-form/_login-form.scss';
+@import './common/account-top/_account-top.scss';
+
+@import './elements/product-page-elemets/_ps-right-widget.scss';
+
+@import './bloks/korzina-page/_korzina-container.scss';
+@import './elements/korzina/_tab.scss';
+@import './elements/korzina/_total.scss'

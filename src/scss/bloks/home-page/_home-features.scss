@@ -1,0 +1,12 @@
+.features_container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.features_component{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}

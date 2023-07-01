@@ -1,0 +1,88 @@
+.send-message-container {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+.contact-from-container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+}
+.form--conatct-us {
+  & h3 {
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1em;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .from-control--input {
+    outline: none;
+    font-size: 14px;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 transparent;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 0 #000;
+    width: 100%;
+  }
+  .from-control--input:focus {
+    outline: none;
+    box-shadow: 0 0 0 #000;
+    border-color: #0f4c82;
+  }
+  .from-control--input:valid {
+    color: #666;
+  }
+
+  .form-control__textaria {
+    height: auto;
+    padding: 20px;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 transparent;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 0 #000;
+    width: 100%;
+  }
+  .form-control__textaria:focus {
+    outline: none;
+    box-shadow: 0 0 0 #000;
+    border-color: #0f4c82;
+  }
+  .submit {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+}
+.info-from__btn {
+  height: 50px;
+  padding: 0 30px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #0f4c82;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  &:hover {
+    background-color: #222;
+    color: #fff;
+  }
+}

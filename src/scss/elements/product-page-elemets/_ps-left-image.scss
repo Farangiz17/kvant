@@ -1,0 +1,18 @@
+.product-page-left-container__image{
+    max-width: 43%;
+}
+.product-images-component{
+    display: flex;
+}
+.product-images-small{
+    max-width: 60px;
+    width: 100%;
+    min-width: 60px;
+}
+
+.product-images-big{
+    position: relative;
+    display: block;
+    max-width: calc(100% - 60px);
+    padding-left: 10px;
+}

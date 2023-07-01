@@ -1,0 +1,25 @@
+.product-widget {
+  margin-bottom: 30px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.product-widget p {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  color: #000;
+  line-height: 1.3em;
+  & :last-child{
+    margin-bottom: 20px;
+  }
+}
+
+.product-widget p i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+  font-size: 26px;
+  color: #424242;
+}

@@ -1,0 +1,114 @@
+.navigation-categoriy {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  width: 198px;
+  padding: 16px 0 15px 0;
+  min-width: 270px;
+  border-top: 1px solid transparent;
+  transition: all .4s ease;
+  position: relative;
+
+  .navigation-categoriy_p {
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  .navigation_menu--icon{
+    padding-top: 2px;
+    font:icon;
+  }
+}
+
+.navigation-categoriy:hover ~ .navigation-category-border-top {
+  display: block;
+  width: 0;
+  border: 0.02px solid #000000ad;
+  transform: rotate(180deg);
+  top: -1px;
+  position: absolute;
+  animation: border .5s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes border {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+.navigation_nav {
+  padding-top: 15px;
+  .navigation_ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+    padding: 0;
+  }
+  .navigation_ul_li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .navigation_ul_li a{
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.navigation-categoriy-parent {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.navigation-categoriy-parent:hover {
+  cursor: pointer;
+  .categoriy_items {
+    transition: all 0.5s ease;
+    opacity: 1;
+    top: 50px;
+    left: 0;
+    height: auto;
+    border: 1px solid #ccc;
+  padding: 10px 3px;
+  }
+}
+
+.categoriy_items_ul_li_icon {
+  width: 30px;
+}
+
+.categoriy_items {
+  position: absolute;
+  height: 0;
+  top: 100px;
+  padding: 0;
+  background-color: #fff;
+  z-index: 999;
+  overflow: hidden;
+  .categoriy_items_ul {
+    padding: 0 0 0 7px;
+    margin: 0;
+    min-width: 260px;
+  }
+  .categoriy_items_ul_li{
+    list-style-type: none;
+  }
+  .categoriy_items_ul_li a{
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  .categoriy_items_ul_li:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,84 @@
+.form-tab {
+  background-color: #fff;
+  padding: 30px 30px 0;
+}
+
+.login-form-button--submit {
+  width: 100%;
+  display: inline-block;
+  padding: 25px 45px;
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #0f4c82;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  margin: 0;
+  &:hover {
+    background-color: #222;
+    color: #fff;
+  }
+}
+
+.ant-input {
+  height: 50px;
+  border-radius: 0 !important;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  margin: 0 0 5px;
+  vertical-align: top;
+  padding: 3px 15px;
+  &:focus {
+    outline: none !important;
+    border: 1px solid #0f4c82 !important;
+    box-shadow: none !important;
+  }
+  &::placeholder {
+    color: #ccc;
+  }
+  &:valid {
+    color: #666;
+  }
+  &:hover {
+    border: 1px solid #dbdada !important;
+  }
+}
+
+.ant-checkbox-inner {
+  margin-bottom: 0;
+  padding: 10px;
+  position: relative;
+  font-family: " Work Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  background: #000 !important;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 0 !important;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 #000 !important;
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 13.142857px !important;
+    color: #fff;
+  }
+}

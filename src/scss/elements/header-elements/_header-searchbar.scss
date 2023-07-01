@@ -1,0 +1,86 @@
+.header_searchbar_component {
+  display: flex;
+}
+
+.header_form {
+  display: flex;
+  align-items: center;
+}
+
+.header_select {
+  position: relative;
+  vertical-align: top;
+  height: 42px;
+  .select {
+    background-color: #fff;
+    width: 160px;
+    appearance: none;
+    border: 1px solid #dddddd;
+    border-radius: 4px 0 0 4px;
+    padding: 8px 8px 8px 9px;
+  }
+
+  .select:focus {
+    outline: none;
+  }
+
+  .select_icon {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    color: #a4a2a2;
+    font-size: 16px;
+  }
+  .header-search-option{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  transition: all .7s ease;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.input_component {
+  .input {
+    background-color: #fff;
+    color: #000;
+    border-radius: 0;
+    max-width: 380px;
+    width: 373px;
+    height: 42px;
+    border: 1px solid #dddddd;
+    padding: 10.7px 20px;
+  }
+  .input::placeholder{
+    font-size: 14px;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+}
+
+.header_btn {
+  max-width: 100px;
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  height: 42px;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 0 4px 4px 0;
+  background-color: #0f4c82;
+  padding: 0 28px;
+}
+

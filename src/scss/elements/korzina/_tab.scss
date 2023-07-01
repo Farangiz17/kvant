@@ -1,0 +1,107 @@
+.section-content {
+  table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+  }
+}
+
+.korzina-table thead tr th {
+  text-align: center;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 14px;
+  &:first-child {
+    text-align: left;
+  }
+}
+
+.korzina-table tbody tr td {
+  padding: 20px 10px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  &:first-child {
+    text-align: left;
+  }
+}
+
+.form-group--quantity {
+  text-align: center;
+  border: 1px solid #bab9b9;
+  max-width: 100px;
+  display: inline-block;
+  padding: 5px;
+  & button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+  }
+  & .icon {
+    font-size: 14px;
+  }
+}
+
+.clear {
+  & button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.total {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-td {
+  padding-left: 0 !important;
+}
+.korzina-product-card {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  max-width: 500px;
+  margin-right: 0 !important;
+  .card-image {
+    & img {
+      width: 100px;
+    }
+  }
+  .card-title {
+    padding-left: 30px;
+    & a {
+      transition: all ease 0.3s;
+      text-decoration: none;
+    }
+    & a:hover {
+      color: #fff;
+    }
+  }
+}
+.price {
+  text-align: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+
+
+
+.no-product-table-info p{
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 15px;
+}
